@@ -1,0 +1,108 @@
+CRITICAL - 2022-02-10 10:50:27 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci-blog\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ci-blog\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-10 10:59:40 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci-blog\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ci-blog\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-10 04:48:48 --> Invalid file: signup.php
+#0 C:\xampp\htdocs\ci-blog\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\xampp\htdocs\ci-blog\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\xampp\htdocs\ci-blog\app\Controllers\SignUpController.php(36): view('signup', Array)
+#3 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(825): App\Controllers\SignupController->store()
+#4 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci-blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci-blog\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-10 04:54:48 --> Invalid file: signup.php
+#0 C:\xampp\htdocs\ci-blog\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\xampp\htdocs\ci-blog\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\xampp\htdocs\ci-blog\app\Controllers\SignUpController.php(36): view('signup', Array)
+#3 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(825): App\Controllers\SignupController->store()
+#4 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci-blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci-blog\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-10 05:15:19 --> Call to a member function all_userdata() on null
+#0 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(825): App\Controllers\SigninController->logout()
+#1 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci-blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci-blog\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-10 05:17:01 --> Call to a member function all_userdata() on null
+#0 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(825): App\Controllers\SigninController->logout()
+#1 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci-blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci-blog\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-10 05:20:37 --> Call to a member function all_userdata() on null
+#0 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(825): App\Controllers\SigninController->logout()
+#1 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci-blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci-blog\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-10 05:21:38 --> Call to a member function all_userdata() on null
+#0 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(825): App\Controllers\SigninController->logout()
+#1 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci-blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci-blog\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-10 05:23:10 --> Call to a member function all_userdata() on null
+#0 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(825): App\Controllers\SigninController->logout()
+#1 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci-blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci-blog\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-10 05:23:34 --> Call to a member function all_userdata() on null
+#0 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(825): App\Controllers\SigninController->logout()
+#1 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci-blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci-blog\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-10 05:44:26 --> syntax error, unexpected ':'
+#0 C:\xampp\htdocs\ci-blog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci-blog\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\ci-blog\app\Controllers\SigninController.php(11): view('login')
+#3 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(825): App\Controllers\SigninController->index()
+#4 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#5 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci-blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci-blog\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-10 05:44:30 --> syntax error, unexpected ':'
+#0 C:\xampp\htdocs\ci-blog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci-blog\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\ci-blog\app\Controllers\SigninController.php(11): view('login')
+#3 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(825): App\Controllers\SigninController->index()
+#4 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#5 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci-blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci-blog\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-10 05:44:59 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-10 05:46:54 --> Call to a member function getFlashdata() on null
+#0 C:\xampp\htdocs\ci-blog\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci-blog\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci-blog\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\ci-blog\app\Controllers\SigninController.php(11): view('login')
+#4 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(825): App\Controllers\SigninController->index()
+#5 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 C:\xampp\htdocs\ci-blog\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci-blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci-blog\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
